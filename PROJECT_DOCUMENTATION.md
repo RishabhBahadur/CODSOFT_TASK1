@@ -291,6 +291,6 @@ integration.
 -   **Program:** CodSoft Artificial Intelligence Internship
 -   **Project:** Tic-Tac-Toe AI
 -   **Student:**  Rishabh Bahadur
--   **GitHub repository:** Add your repository URL
+-   **GitHub repository:** https://github.com/RishabhBahadur/CODSOFT_TASK1
 -   **LinkedIn demo video:** Add your post URL
 -   **Completion date:** 19/11/26
