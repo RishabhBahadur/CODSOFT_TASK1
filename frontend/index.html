@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <p class="tag">CODSOFT AI INTERNSHIP PROJECT</p>
+            <h1>Tic Tac Toe <span>AI</span></h1>
+            <p class="subtitle">Challenge an AI powered by Minimax & Alpha-Beta Pruning.</p>
+        </header>
+
+        <section class="scoreboard">
+            <div class="score-card">
+                <span>You (X)</span>
+                <strong id="human-score">0</strong>
+            </div>
+            <div class="score-card">
+                <span>Draws</span>
+                <strong id="draw-score">0</strong>
+            </div>
+            <div class="score-card">
+                <span>AI (O)</span>
+                <strong id="ai-score">0</strong>
+            </div>
+        </section>
+
+        <section class="game-panel">
+            <h2 id="status">Your turn — choose a cell</h2>
+
+            <div class="board" id="board">
+                <button class="cell" data-position="0"></button>
+                <button class="cell" data-position="1"></button>
+                <button class="cell" data-position="2"></button>
+                <button class="cell" data-position="3"></button>
+                <button class="cell" data-position="4"></button>
+                <button class="cell" data-position="5"></button>
+                <button class="cell" data-position="6"></button>
+                <button class="cell" data-position="7"></button>
+                <button class="cell" data-position="8"></button>
+            </div>
+
+            <button id="reset-button">New Game</button>
+        </section>
+        <div class="difficulty-selector">
+    <label for="difficulty">AI Difficulty</label>
+
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard" selected>Hard</option>
+    </select>
+</div>
+
+        <footer>
+            <p>Built with Python, Flask, HTML, CSS & JavaScript</p>
+        </footer>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
